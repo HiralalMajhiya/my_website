@@ -1,0 +1,10 @@
+.Thankyou {
+  background-color: bisque;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  font-size: xx-large;
+  color: red;
+}

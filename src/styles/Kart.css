@@ -1,0 +1,29 @@
+#kart {
+  display: inline;
+  margin-left: 5.5rem;
+  background: none;
+  border: none;
+  color: green;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+span {
+  display: none;
+}
+#kart:hover + #add {
+  display: inline;
+  animation-name: example;
+  animation-duration: 12ms;
+}
+
+@keyframes example {
+  from {
+    font-size: 1rem;
+    color: black;
+  }
+  to {
+    font-size: 2rem;
+    color: red;
+  }
+}
